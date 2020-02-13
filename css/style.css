@@ -1,0 +1,64 @@
+/* Спецификация */
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+ul, li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    color: #000;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Первый экран */
+
+.header {
+    background: #fcdb00;
+    color: #010101;
+    padding-top: 58px;
+}
+
+.menu {
+    margin-top: 8px;
+}
+
+.menu__item {
+    margin: 0 57px;
+}
+
+.menu__item a {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+}
+
+.offer {
+
+}
+
+.offer__title {
+    font-style: 32px;
+    margin-bottom: 6px;
+}
+
+.offer__intro {
+    font-style: 20px;
+    line-height: 1.3em;
+}
+
+.offer__text {
+    font-style: 16px;
+}
